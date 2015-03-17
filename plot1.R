@@ -2,7 +2,7 @@
 library("data.table")
 
 # Define the names (and location) of the files used and writed
-srcfile <- "../data/household_power_consumption.txt"
+srcfile <- "./data/household_power_consumption.txt"
 plotfile <- "./figure/plot1.png"
 
 # Use fread to read in the file into a data.table, handing ? for missing values
